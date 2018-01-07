@@ -1,0 +1,23 @@
+/* 
+  File.strings
+  carz4life
+
+  Created by Arthur Quemard on 04.01.18.
+  Copyright © 2018 Arthur Quemard. All rights reserved.
+*/
+
+"CloseInFormat" = "Close in %@";
+"Alive" = "Alive";
+"Closed" = "Closed";
+"Pending" = "Start in";
+"Not defined" = "Not defined";
+"No description" = "No description";
+"EngineValueFormat" = "%.1f L";
+"HpPowerValueFormat" = "%d Hp";
+"MileageValueFormat" = "%d Km";
+"You are the current winner" = "You are the current winner";
+"You were outbid" = "You were outbid";
+"Confirm" = "Confirm";
+"ConfirmBidPopUpMessageFormat" = "Do you want to bid on this car for an amount of %@ ?";
+"Yes" = "Yes";
+"Cancel" = "Cancel";

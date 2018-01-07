@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+use_frameworks!
+
+target 'carz4life' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Alamofire'
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'ObjectMapper'
+  pod 'SwipeCellKit'
+  pod 'SDWebImage'
+  pod 'ImageSlideshow', :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+  pod "ImageSlideshow/SDWebImage", :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+  
+
+  target 'carz4lifeTests' do
+    inherit! :search_paths
+    pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+    pod 'Firebase'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Database'
+    pod 'ObjectMapper'
+    pod 'SwipeCellKit'
+    pod 'SDWebImage'
+    pod 'ImageSlideshow', :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+    pod "ImageSlideshow/SDWebImage", :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+  end
+
+  target 'carz4lifeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

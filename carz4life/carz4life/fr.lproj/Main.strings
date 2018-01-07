@@ -1,0 +1,138 @@
+
+/* Class = "UILabel"; text = "Doors"; ObjectID = "0dT-hz-gx3"; */
+"0dT-hz-gx3.text" = "Portes";
+
+/* Class = "UILabel"; text = "Mark"; ObjectID = "2U7-Bx-AAq"; */
+"2U7-Bx-AAq.text" = "Marque";
+
+/* Class = "UINavigationItem"; title = "My cars"; ObjectID = "2Wa-82-l1U"; */
+"2Wa-82-l1U.title" = "Mes voitures";
+
+/* Class = "UILabel"; text = "email@adress.ch"; ObjectID = "2iN-JS-ms3"; */
+"2iN-JS-ms3.text" = "email@adress.ch";
+
+/* Class = "UILabel"; text = "CHF 89'000.00"; ObjectID = "2jI-q7-hOf"; */
+"2jI-q7-hOf.text" = "CHF 89'000.00";
+
+/* Class = "UILabel"; text = "Alive"; ObjectID = "2n5-JV-bQC"; */
+"2n5-JV-bQC.text" = "En cours";
+
+/* Class = "UILabel"; text = "Xenon"; ObjectID = "4HB-rX-6OI"; */
+"4HB-rX-6OI.text" = "Xenon";
+
+/* Class = "UITextField"; text = "password"; ObjectID = "5Bh-5M-684"; */
+"5Bh-5M-684.text" = "mot de passe";
+
+/* Class = "UILabel"; text = "Congratulation, you have won the auction"; ObjectID = "6gf-gL-9N7"; */
+"6gf-gL-9N7.text" = "Félicitation, vous avez remporté l'enchère";
+
+/* Class = "UILabel"; text = "Lorem ipsim description about the car it can be super long as super short but it can be super usefull for the user"; ObjectID = "722-bY-6Eu"; */
+"722-bY-6Eu.text" = "Lorem ipsim description about the car it can be super long as super short but it can be super usefull for the user";
+
+/* Class = "UIButton"; normalTitle = "Bid"; ObjectID = "Agl-CB-zCx"; */
+"Agl-CB-zCx.normalTitle" = "Enchérir";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "BsE-ba-9zN"; */
+"BsE-ba-9zN.title" = "Réglages";
+
+/* Class = "UILabel"; text = "Lights"; ObjectID = "C2j-j3-1tQ"; */
+"C2j-j3-1tQ.text" = "Phares";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "CFs-0W-yg5"; */
+"CFs-0W-yg5.text" = "Status";
+
+/* Class = "UILabel"; text = "Petrol"; ObjectID = "DDi-Yv-HYS"; */
+"DDi-Yv-HYS.text" = "Petrol";
+
+/* Class = "UINavigationItem"; title = "Auctions"; ObjectID = "DSM-5D-2Eu"; */
+"DSM-5D-2Eu.title" = "Enchères";
+
+/* Class = "UILabel"; text = "389:98:78 h"; ObjectID = "F3S-5d-qeX"; */
+"F3S-5d-qeX.text" = "389:98:78 h";
+
+/* Class = "UILabel"; text = "Mileage"; ObjectID = "Fkb-i3-agK"; */
+"Fkb-i3-agK.text" = "Kilométrage";
+
+/* Class = "UILabel"; text = "Gear"; ObjectID = "Gfl-Ed-3FJ"; */
+"Gfl-Ed-3FJ.text" = "Rapport";
+
+/* Class = "UILabel"; text = "Auction title"; ObjectID = "GtO-TQ-rhx"; */
+"GtO-TQ-rhx.text" = "Auction title";
+
+/* Class = "UILabel"; text = "Title Auction"; ObjectID = "It1-zU-0s8"; */
+"It1-zU-0s8.text" = "Title Auction";
+
+/* Class = "UILabel"; text = "Close in 23 mins, 35 secs"; ObjectID = "JaA-5k-29Y"; */
+"JaA-5k-29Y.text" = "Close in 23 mins, 35 secs";
+
+/* Class = "UILabel"; text = "Abarth"; ObjectID = "Jmz-1g-ddI"; */
+"Jmz-1g-ddI.text" = "Abarth";
+
+/* Class = "UILabel"; text = "Mercedes"; ObjectID = "KKC-8n-SRI"; */
+"KKC-8n-SRI.text" = "Mercedes";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "LJh-59-dsO"; */
+"LJh-59-dsO.text" = "8";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "N7P-rK-6fm"; */
+"N7P-rK-6fm.text" = "3";
+
+/* Class = "UILabel"; text = "Fuel"; ObjectID = "OCU-rv-hHa"; */
+"OCU-rv-hHa.text" = "Carburant";
+
+/* Class = "UITabBarItem"; title = "Auctions"; ObjectID = "Oww-Tb-efD"; */
+"Oww-Tb-efD.title" = "Enchères";
+
+/* Class = "UILabel"; text = "180 Nm"; ObjectID = "Qjm-9I-KXL"; */
+"Qjm-9I-KXL.text" = "180 Nm";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "RQO-m2-WI2"; */
+"RQO-m2-WI2.text" = "4";
+
+/* Class = "UILabel"; text = "CHF 60'000.00"; ObjectID = "Rot-iO-5DP"; */
+"Rot-iO-5DP.text" = "CHF 60'000.00";
+
+/* Class = "UILabel"; text = "Engine"; ObjectID = "Uug-bK-ij2"; */
+"Uug-bK-ij2.text" = "Cylindrée";
+
+/* Class = "UILabel"; text = "Model"; ObjectID = "Vzg-jj-tfz"; */
+"Vzg-jj-tfz.text" = "Model";
+
+/* Class = "UILabel"; text = "E43"; ObjectID = "Zyy-mB-fM5"; */
+"Zyy-mB-fM5.text" = "E43";
+
+/* Class = "UILabel"; text = "CHF 89'100.00"; ObjectID = "cfb-a5-USn"; */
+"cfb-a5-USn.text" = "CHF 89'100.00";
+
+/* Class = "UILabel"; text = "Seats"; ObjectID = "d0E-Ri-qml"; */
+"d0E-Ri-qml.text" = "Sièges";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "eKX-qe-aRj"; */
+"eKX-qe-aRj.normalTitle" = "Déconnexion";
+
+/* Class = "UILabel"; text = "Manual"; ObjectID = "ekG-HE-caF"; */
+"ekG-HE-caF.text" = "Manual";
+
+/* Class = "UILabel"; text = "Hp power"; ObjectID = "fki-qX-43j"; */
+"fki-qX-43j.text" = "Puissance";
+
+/* Class = "UITabBarItem"; title = "My cars"; ObjectID = "hax-n5-WAR"; */
+"hax-n5-WAR.title" = "Mes voitures";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "k02-hI-sbA"; */
+"k02-hI-sbA.title" = "Réglages";
+
+/* Class = "UILabel"; text = "0 Km"; ObjectID = "m7b-EM-Uo1"; */
+"m7b-EM-Uo1.text" = "0 Km";
+
+/* Class = "UILabel"; text = "595"; ObjectID = "uC3-vg-JO0"; */
+"uC3-vg-JO0.text" = "595";
+
+/* Class = "UILabel"; text = "1.4 L"; ObjectID = "vzv-NW-URe"; */
+"vzv-NW-URe.text" = "1.4 L";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "waK-Qq-E9D"; */
+"waK-Qq-E9D.text" = "-";
+
+/* Class = "UIButton"; normalTitle = "Contact"; ObjectID = "ywM-6q-LbQ"; */
+"ywM-6q-LbQ.normalTitle" = "Contacter";

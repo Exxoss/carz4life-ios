@@ -1,0 +1,39 @@
+
+/* Class = "UIBarButtonItem"; title = "Sign in"; ObjectID = "27k-Rq-UYv"; */
+"27k-Rq-UYv.title" = "Connexion";
+
+/* Class = "UIViewController"; title = "Sign up"; ObjectID = "5rC-Mr-hev"; */
+"5rC-Mr-hev.title" = "Inscription";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "7RI-EZ-P5F"; */
+"7RI-EZ-P5F.placeholder" = "Mot de passe";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "CzP-kH-oyN"; */
+"CzP-kH-oyN.placeholder" = "Confirmer le mot de passe";
+
+/* Class = "UILabel"; text = "error msg from API"; ObjectID = "Gx2-Lm-1aT"; */
+"Gx2-Lm-1aT.text" = "error msg from API";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "Huy-BB-dTP"; */
+"Huy-BB-dTP.normalTitle" = "Inscription";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "TXD-39-QUf"; */
+"TXD-39-QUf.normalTitle" = "Connexion";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Uug-yc-qfe"; */
+"Uug-yc-qfe.placeholder" = "E-mail";
+
+/* Class = "UILabel"; text = "error msg from API"; ObjectID = "VBa-pz-VGN"; */
+"VBa-pz-VGN.text" = "error msg from API";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "amf-RN-ndH"; */
+"amf-RN-ndH.placeholder" = "E-mail";
+
+/* Class = "UINavigationItem"; title = "Sign in"; ObjectID = "iWo-F6-BCX"; */
+"iWo-F6-BCX.title" = "Connexion";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jbH-ZP-ud0"; */
+"jbH-ZP-ud0.placeholder" = "Mot de passe";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "lVk-yq-AMW"; */
+"lVk-yq-AMW.normalTitle" = "Inscription";
