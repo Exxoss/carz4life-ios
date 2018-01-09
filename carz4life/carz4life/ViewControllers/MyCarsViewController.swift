@@ -18,6 +18,7 @@ class MyCarsViewController: UITableViewController {
     var viewModel: MyCarsViewModel!
     
     let loadingDataView = LoadingDataView()
+    let emptyMyCarsView = EmptyMyCarsView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +52,10 @@ class MyCarsViewController: UITableViewController {
         viewModel.isLoadingData.drive(onNext: {[weak self] in
             self?.tableView.tableFooterView = $0 ? self?.loadingDataView : nil
             UIApplication.shared.isNetworkActivityIndicatorVisible = $0
+        }).disposed(by: disposeBag)
+        
+        viewModel.auctions.drive(onNext: {[weak self] in
+            self?.tableView.tableHeaderView = $0.isEmpty ? self?.emptyMyCarsView : nil
         }).disposed(by: disposeBag)
         
         tableView.rx.itemSelected.subscribe({[weak self] in
@@ -95,5 +100,6 @@ extension MyCarsViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         
         loadingDataView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 100)
+        emptyMyCarsView.frame = CGRect(x: 0, y: 0, width: view.frame.width, height: 100)
     }
 }
