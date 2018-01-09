@@ -13,6 +13,7 @@
 		8E4DDC481FD302BB001EE6D6 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4DDC471FD302BB001EE6D6 /* SettingsViewModel.swift */; };
 		8E4EAEA42004C1370010874E /* EmptyMyCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4EAEA32004C1370010874E /* EmptyMyCarsView.swift */; };
 		8E4EAEA52004C77F0010874E /* EmptyMyCars.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EAEA72004C77F0010874E /* EmptyMyCars.xib */; };
+		8E4EAEAB2004F8C70010874E /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 8E4EAEAA2004F8C70010874E /* success.json */; };
 		8EA761F71FDC0C35006BF946 /* SettingsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA761F61FDC0C35006BF946 /* SettingsViewModelTests.swift */; };
 		8EA761F91FDC0F5D006BF946 /* AuctionCellViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA761F81FDC0F5D006BF946 /* AuctionCellViewModelTests.swift */; };
 		8EA761FB1FDC1A71006BF946 /* SearchResultsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA761FA1FDC1A71006BF946 /* SearchResultsViewModelTests.swift */; };
@@ -101,6 +102,7 @@
 		8E4EAEA32004C1370010874E /* EmptyMyCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyMyCarsView.swift; sourceTree = "<group>"; };
 		8E4EAEA62004C77F0010874E /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/EmptyMyCars.xib; sourceTree = "<group>"; };
 		8E4EAEA82004C7970010874E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/EmptyMyCars.xib; sourceTree = "<group>"; };
+		8E4EAEAA2004F8C70010874E /* success.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
 		8EA761F61FDC0C35006BF946 /* SettingsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModelTests.swift; sourceTree = "<group>"; };
 		8EA761F81FDC0F5D006BF946 /* AuctionCellViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionCellViewModelTests.swift; sourceTree = "<group>"; };
 		8EA761FA1FDC1A71006BF946 /* SearchResultsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewModelTests.swift; sourceTree = "<group>"; };
@@ -225,6 +227,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8E4EAEA92004F89A0010874E /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8E4EAEAA2004F8C70010874E /* success.json */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		CC11400C1FCEDC4800413E8A = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +261,7 @@
 		CC1140171FCEDC4800413E8A /* carz4life */ = {
 			isa = PBXGroup;
 			children = (
+				8E4EAEA92004F89A0010874E /* Animations */,
 				CC1A02A71FDFE74A0097CB55 /* Views */,
 				CC72DE011FD04AE500BF1787 /* Repository */,
 				CC8161871FCEFFB200AFEF0F /* UserManager */,
@@ -519,6 +530,7 @@
 				CC1140231FCEDC4800413E8A /* LaunchScreen.storyboard in Resources */,
 				8E4EAEA52004C77F0010874E /* EmptyMyCars.xib in Resources */,
 				CC1140201FCEDC4800413E8A /* Assets.xcassets in Resources */,
+				8E4EAEAB2004F8C70010874E /* success.json in Resources */,
 				CC4C77CA1FFE2FA700A92152 /* Localizable.strings in Resources */,
 				CCA899C01FD0182500B40307 /* Loading.storyboard in Resources */,
 				CC11401E1FCEDC4800413E8A /* Main.storyboard in Resources */,
@@ -589,6 +601,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -602,6 +615,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -644,6 +658,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -658,6 +673,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

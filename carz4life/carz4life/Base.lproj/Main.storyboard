@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sfF-H2-AcH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sfF-H2-AcH">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -775,14 +775,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Snx-k2-Uip">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="validation" translatesAutoresizingMaskIntoConstraints="NO" id="qHY-Mu-643">
-                                        <rect key="frame" x="16" y="150" width="342" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="Mj1-VS-tjt"/>
-                                        </constraints>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ywM-6q-LbQ">
-                                        <rect key="frame" x="137" y="240" width="100" height="40"/>
+                                        <rect key="frame" x="137" y="241" width="100" height="40"/>
                                         <color key="backgroundColor" red="0.16078431372549018" green="0.50196078431372548" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="TzU-zy-fA9"/>
@@ -798,19 +792,24 @@
                                         <color key="textColor" red="0.17394059896469116" green="0.24193984270095825" blue="0.31265199184417725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYu-UY-XDq">
+                                        <rect key="frame" x="137.5" y="116" width="100" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="axz-It-5SU"/>
+                                            <constraint firstAttribute="width" constant="100" id="qLL-0W-qex"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="6gf-gL-9N7" firstAttribute="top" secondItem="Snx-k2-Uip" secondAttribute="top" constant="60" id="2JI-Hg-SHO"/>
-                                    <constraint firstAttribute="trailing" secondItem="qHY-Mu-643" secondAttribute="trailing" constant="16" id="6gk-9h-OUU"/>
                                     <constraint firstAttribute="bottom" secondItem="ywM-6q-LbQ" secondAttribute="bottom" constant="16" id="7Q6-r8-OCn"/>
+                                    <constraint firstItem="ywM-6q-LbQ" firstAttribute="top" secondItem="MYu-UY-XDq" secondAttribute="bottom" constant="25" id="8Bi-R0-6U0"/>
                                     <constraint firstItem="6gf-gL-9N7" firstAttribute="leading" secondItem="Snx-k2-Uip" secondAttribute="leading" constant="16" id="A4R-Zh-Fve"/>
                                     <constraint firstAttribute="trailing" secondItem="6gf-gL-9N7" secondAttribute="trailing" constant="16" id="Ok7-gD-uOy"/>
-                                    <constraint firstItem="ywM-6q-LbQ" firstAttribute="top" secondItem="qHY-Mu-643" secondAttribute="bottom" constant="40" id="RxV-5G-OYo"/>
-                                    <constraint firstItem="qHY-Mu-643" firstAttribute="top" secondItem="Snx-k2-Uip" secondAttribute="top" constant="150" id="SLm-8m-QUJ"/>
                                     <constraint firstItem="6gf-gL-9N7" firstAttribute="centerX" secondItem="Snx-k2-Uip" secondAttribute="centerX" id="Su5-qr-Sb6"/>
-                                    <constraint firstItem="qHY-Mu-643" firstAttribute="centerX" secondItem="Snx-k2-Uip" secondAttribute="centerX" id="Tde-M0-Ioz"/>
+                                    <constraint firstItem="MYu-UY-XDq" firstAttribute="top" secondItem="6gf-gL-9N7" secondAttribute="bottom" constant="8" id="bFm-vg-KYX"/>
                                     <constraint firstItem="ywM-6q-LbQ" firstAttribute="centerX" secondItem="Snx-k2-Uip" secondAttribute="centerX" id="itV-Wc-PFC"/>
-                                    <constraint firstItem="qHY-Mu-643" firstAttribute="leading" secondItem="Snx-k2-Uip" secondAttribute="leading" constant="16" id="laH-aH-PiT"/>
+                                    <constraint firstItem="MYu-UY-XDq" firstAttribute="centerX" secondItem="Snx-k2-Uip" secondAttribute="centerX" id="u8b-Ed-Thb"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -824,12 +823,13 @@
                         <viewLayoutGuide key="safeArea" id="tvN-3S-Nfr"/>
                     </view>
                     <connections>
+                        <outlet property="checkView" destination="MYu-UY-XDq" id="1Iy-2p-WmS"/>
                         <outlet property="contactButton" destination="ywM-6q-LbQ" id="u4I-A2-0db"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GVb-d5-neE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2702" y="428"/>
+            <point key="canvasLocation" x="2701.5999999999999" y="427.73613193403304"/>
         </scene>
         <!--Auctions-->
         <scene sceneID="CEk-CA-KC9">
@@ -1025,7 +1025,6 @@
         <image name="power" width="64" height="64"/>
         <image name="seat" width="64" height="64"/>
         <image name="settingsTabBarIconWhite" width="25" height="25"/>
-        <image name="validation" width="171" height="117"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CY9-LZ-zLO"/>

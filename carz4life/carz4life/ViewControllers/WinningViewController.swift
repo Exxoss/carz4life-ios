@@ -9,11 +9,13 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Lottie
 
 class WinningViewController: UIViewController {
     //MARK: - Properties
     //MARK: UI components
     @IBOutlet weak var contactButton: UIButton!
+    @IBOutlet weak var checkView: UIView!
     
     
     //MARK: Attributes
@@ -27,6 +29,10 @@ class WinningViewController: UIViewController {
         bindToRx()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        playSuccessAnimation()
+    }
+    
     //MARK: - Rx implementation
     private func bindToRx(){
         
@@ -35,5 +41,21 @@ class WinningViewController: UIViewController {
 extension WinningViewController {
     private func setupUIComponents(){
         contactButton.layer.cornerRadius = (contactButton.frame.height)/2
+    }
+    
+    private func playSuccessAnimation () {
+        guard let successAnimationView = LOTAnimationView(name: "success") as LOTAnimationView? else {return}
+        successAnimationView.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        
+        successAnimationView.loopAnimation = false
+        successAnimationView.contentMode = .scaleAspectFill
+        successAnimationView.animationSpeed = 0.6
+    
+        UIView.animate(withDuration: 4.0, delay: 0.0, options: [], animations: {
+            successAnimationView.transform = CGAffineTransform.identity
+        }, completion: nil)
+        
+        checkView.addSubview(successAnimationView)
+        successAnimationView.play()
     }
 }
