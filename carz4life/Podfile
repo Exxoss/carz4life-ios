@@ -16,6 +16,7 @@ target 'carz4life' do
   pod 'SDWebImage'
   pod 'ImageSlideshow', :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
   pod "ImageSlideshow/SDWebImage", :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+  pod 'lottie-ios'
   
 
   target 'carz4lifeTests' do
@@ -30,6 +31,7 @@ target 'carz4life' do
     pod 'SDWebImage'
     pod 'ImageSlideshow', :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
     pod "ImageSlideshow/SDWebImage", :git => 'https://github.com/zvonicek/ImageSlideshow.git', :branch => 'master'
+    pod 'lottie-ios'
   end
 
   target 'carz4lifeUITests' do
