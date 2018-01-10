@@ -36,7 +36,6 @@ target 'carz4life' do
 
   target 'carz4lifeUITests' do
     inherit! :search_paths
-    # Pods for testing
   end
 
 end

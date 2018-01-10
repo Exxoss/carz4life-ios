@@ -941,6 +941,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eKX-qe-aRj">
                                         <rect key="frame" x="16" y="124" width="343" height="30"/>
                                         <color key="backgroundColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="logoutButton"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="Pku-b2-OqR"/>
                                         </constraints>
@@ -1027,6 +1028,6 @@
         <image name="settingsTabBarIconWhite" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CY9-LZ-zLO"/>
+        <segue reference="wTH-Aa-Qb3"/>
     </inferredMetricsTieBreakers>
 </document>

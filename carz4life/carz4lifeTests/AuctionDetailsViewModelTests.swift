@@ -51,7 +51,7 @@ class AuctionDetailsViewModelTests: XCTestCase {
         auction.description.value = "description"
         auction.carProperties = carProperties
         
-        let viewModel = AuctionDetailsViewModel(auction: auction)
+        let viewModel = AuctionDetailsViewModel(auction: auction, repo: AuctionRepository())
         
         let resultTitle = Variable("")
         let resultUserParticipateToTheAuction = Variable(false)
